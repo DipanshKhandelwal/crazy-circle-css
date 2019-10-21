@@ -1,0 +1,151 @@
+#board {
+  position:  absolute;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.ball {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+#one {
+  animation: one 4s infinite;
+  animation-delay: 1s;
+}
+
+@keyframes one {
+  0% {
+      transform: translate3d(235px, 0px, 0px);
+  }
+  50% {
+      transform: translate3d(235px, 470px, 0px);
+  }
+  100% {
+      transform: translate3d(235px, 0px, 0px);
+  }
+}
+
+#two {
+  animation: two 4s infinite;
+  animation-delay: 2s;
+}
+
+@keyframes two {
+  0% {
+      transform: translate3d(0px, 235px, 0px);
+  }
+  50% {
+      transform: translate3d(470px, 235px, 0px);
+  }
+  100% {
+      transform: translate3d(0px, 235px, 0px);
+  }
+}
+
+#three {
+  animation: three 4s infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes three {
+  0% {
+      transform: translate3d(70px, 70px, 0px);
+  }
+  50% {
+      transform: translate3d(400px, 400px, 0px);
+  }
+  100% {
+      transform: translate3d(70px, 70px, 0px);
+  }
+}
+
+#four {
+  animation: four 4s infinite;
+  animation-delay: .5s;
+}
+
+@keyframes four {
+  0% {
+      transform: translate3d(400px, 70px, 0px);
+  }
+  50% {
+      transform: translate3d(70px, 400px, 0px);
+  }
+  100% {
+      transform: translate3d(400px, 70px, 0px);
+  }
+}
+
+#five {
+  animation: five 4s infinite;
+  animation-delay: 1.25s;
+}
+
+@keyframes five {
+  0% {
+      transform: translate3d(146px, 19px, 0px);
+  }
+  50% {
+      transform: translate3d(324px, 451px, 0px);
+  }
+  100% {
+      transform: translate3d(146px, 19px, 0px);
+  }
+}
+
+#six {
+  animation: six 4s infinite;
+  animation-delay: 1.75s;
+}
+
+@keyframes six {
+  0% {
+      transform: translate3d(19px, 146px, 0px);
+  }
+  50% {
+      transform: translate3d(451px, 324px, 0px);
+  }
+  100% {
+      transform: translate3d(19px, 146px, 0px);
+  }
+}
+
+#seven {
+  animation: seven 4s infinite;
+  animation-delay: .75s;
+}
+
+@keyframes seven {
+  0% {
+      transform: translate3d(324px, 19px, 0px);
+  }
+  50% {
+      transform: translate3d(146px, 451px, 0px);
+  }
+  100% {
+    transform: translate3d(324px, 19px, 0px);
+  }
+}
+
+#eight {
+  animation: eight 4s infinite;
+  animation-delay: .25s;
+}
+
+@keyframes eight {
+  0% {
+      transform: translate3d(451px, 146px, 0px);
+  }
+  50% {
+      transform: translate3d(19px, 324px, 0px);
+  }
+  100% {
+      transform: translate3d(451px, 146px, 0px);
+  }
+}
